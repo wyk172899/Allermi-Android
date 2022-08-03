@@ -3,8 +3,8 @@
     <color name="purple_200">#F95643</color>
     <color name="purple_500">#F95643</color>
     <color name="purple_700">#F95643</color>
-    <color name="darkmode">#000000</color>
-    <color name="opposite">#FFFFFF</color>
+    <color name="darkmode">#FFFFFF</color>
+    <color name="opposite">#000000</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 </resources>

@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Alermi">
         <activity
+            android:name=".RegisterMentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterIdActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
