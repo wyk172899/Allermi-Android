@@ -3,33 +3,33 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/bottom_home"
-        android:icon="@drawable/bottom_home"
+        android:icon="@drawable/home"
         android:title="홈"
         android:enabled="true"
         app:showAsAction="always"/>
     <item
         android:id="@+id/bottom_community"
-        android:icon="@drawable/bottom_community"
+        android:icon="@drawable/community"
         android:title="커뮤니티"
         android:enabled="true"
         app:showAsAction="always"/>
     <item
         android:id="@+id/bottom_search"
-        android:enabled="false"
+        android:enabled="true"
         app:showAsAction="always"
-        android:title=""
-        android:icon="@drawable/bottom_search"
+        android:title=" "
+        android:icon="@drawable/search"
         
         />
     <item
         android:id="@+id/bottom_statement"
-        android:icon="@drawable/bottom_statement"
+        android:icon="@drawable/statement"
         android:title="상태"
         android:enabled="true"
         app:showAsAction="always"/>
     <item
         android:id="@+id/bottom_profile"
-        android:icon="@drawable/bottom_profile"
+        android:icon="@drawable/profile"
         android:title="프로필"
         android:enabled="true"
         app:showAsAction="always"/>

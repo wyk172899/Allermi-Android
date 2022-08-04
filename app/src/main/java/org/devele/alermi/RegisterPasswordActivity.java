@@ -13,19 +13,24 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
-public class RegisterIdActivity extends AppCompatActivity {
-    EditText gainid;
-    TextView idlen,idconst;
+public class RegisterPasswordActivity extends AppCompatActivity {
+    TextView combi1,combi2,word,num,len;
+    EditText gainpass;
+    Boolean boolnum,boolword;
+    String password;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_register_id);
-        Button nextbtn = findViewById(R.id.id_nextbtn);
-        ImageButton backbtn = findViewById(R.id.id_back);
-        idconst = findViewById(R.id.nick_const);
-        idlen = findViewById(R.id.nick_len);
-        gainid = findViewById(R.id.gainid);
-        gainid.addTextChangedListener(new TextWatcher() {
+        setContentView(R.layout.activity_register_password);
+        Button next = findViewById(R.id.pass_nextbtn);
+        ImageButton back = findViewById(R.id.pass_back);
+        combi1 = findViewById(R.id.combi1);
+        combi2 = findViewById(R.id.combi2);
+        word = findViewById(R.id.pass_word);
+        num = findViewById(R.id.pass_num);
+        len = findViewById(R.id.pass_len);
+        gainpass = findViewById(R.id.gainpass);
+        gainpass.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
 
@@ -33,17 +38,12 @@ public class RegisterIdActivity extends AppCompatActivity {
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
-                if(gainid.getText().toString().length() != 0 ){
-                    idconst.setTextColor(Color.parseColor("#F95643"));
-                    if(gainid.getText().toString().length() < 16){
-                        idlen.setTextColor(Color.parseColor("#F95643"));
-                    } else {
-                        idlen.setTextColor(Color.parseColor("#808080"));
-                    }
+                if(gainpass.getText().toString().length() >= 8){
+                    len.setTextColor(Color.parseColor("#F95643"));
                 } else {
-                    idlen.setTextColor(Color.parseColor("#808080"));
-                    idconst.setTextColor(Color.parseColor("#808080"));
+                    len.setTextColor(Color.parseColor("#808080"));
                 }
+
             }
 
             @Override
@@ -51,19 +51,19 @@ public class RegisterIdActivity extends AppCompatActivity {
 
             }
         });
-        nextbtn.setOnClickListener(new View.OnClickListener() {
+        back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),RegisterPasswordActivity.class);
+                Intent intent = new Intent(getApplicationContext(),RegisterIdActivity.class);
                 startActivity(intent);
                 overridePendingTransition(R.anim.fadein, R.anim.fadeout);
                 finish();
             }
         });
-        backbtn.setOnClickListener(new View.OnClickListener() {
+        next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(),RegisterMentActivity.class);
+                Intent intent = new Intent(getApplicationContext(),WelcomeActivity.class);
                 startActivity(intent);
                 overridePendingTransition(R.anim.fadein, R.anim.fadeout);
                 finish();

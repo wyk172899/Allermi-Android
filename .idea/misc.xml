@@ -4,32 +4,46 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2155" />
+        <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/drawable/back_button.xml" value="0.271" />
+        <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/drawable/barcode_button.xml" value="0.271" />
         <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/drawable/bottom_community.xml" value="0.271" />
         <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/drawable/bottom_profile.xml" value="0.271" />
         <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/drawable/bottom_search.xml" value="0.271" />
         <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/drawable/bottom_statement.xml" value="0.2155" />
+        <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/drawable/home.xml" value="0.271" />
         <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/drawable/ic_baseline_arrow_back_ios_new_24.xml" value="0.271" />
         <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/drawable/ic_baseline_mode_comment_24.xml" value="0.2155" />
         <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2155" />
+        <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/drawable/link_button.xml" value="0.271" />
+        <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/drawable/location_button.xml" value="0.271" />
         <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/drawable/login_button.xml" value="0.3565" />
         <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/drawable/login_register_button.xml" value="0.3565" />
+        <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/drawable/menu_item_color.xml" value="0.271" />
         <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/drawable/profile.xml" value="0.2155" />
         <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/drawable/register_button.xml" value="0.271" />
         <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/drawable/search.xml" value="0.2155" />
         <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/drawable/search_bar.xml" value="0.3565" />
         <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/font/app_logo_font.xml" value="0.3854166666666667" />
+        <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/layout/activity_login.xml" value="0.35520833333333335" />
         <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/layout/activity_main.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/layout/activity_navigation.xml" value="0.35520833333333335" />
         <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/layout/activity_register_id.xml" value="0.35520833333333335" />
         <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/layout/activity_register_ment.xml" value="0.35520833333333335" />
+        <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/layout/activity_register_password.xml" value="0.35520833333333335" />
         <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/layout/activity_search.xml" value="0.35520833333333335" />
         <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/layout/activity_search2.xml" value="0.35520833333333335" />
         <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/layout/activity_start.xml" value="0.35520833333333335" />
+        <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/layout/activity_welcome.xml" value="0.340625" />
         <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/layout/bottom_menu.xml" value="0.17249240121580547" />
         <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/layout/fragment_community.xml" value="0.17249240121580547" />
         <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/layout/fragment_home.xml" value="0.35520833333333335" />
         <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/layout/fragment_profile.xml" value="0.4265165728580363" />
+        <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/layout/fragment_search.xml" value="0.35520833333333335" />
         <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/layout/fragment_statement.xml" value="0.35520833333333335" />
         <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/menu/bottom_menu.xml" value="0.2361111111111111" />
+        <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/menu/menu_item_color.xml" value="0.35520833333333335" />
+        <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1885" />
+        <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1885" />
         <entry key="..\:/Users/user/Documents/GitHub/andstudy/Alermi/app/src/main/res/xml/root_preferences.xml" value="0.35520833333333335" />
       </map>
     </option>

@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".RegisterMentActivity"
+    tools:context=".RegisterIdActivity"
     android:orientation="vertical">
 
     <ImageButton
-        android:id="@+id/ment_back"
+        android:id="@+id/login_back"
         android:layout_width="15dp"
         android:layout_height="26.1dp"
         android:background="@drawable/back_button"
@@ -17,29 +17,40 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="세상 모든\n알레르기 환자를 위하여"
-        android:textSize="30dp"
+        android:text="알레르미 로그인"
+        android:textSize="28dp"
         android:textColor="@color/darkmode"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="30dp"
-        android:textStyle="bold"/>
-    <TextView
-        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        />
+    <EditText
+        android:id="@+id/login_id"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="알레르미는 식품 알레르기로부터\n안전한 세상을 만듭니다."
-        android:textSize="20dp"
-        android:textColor="#808080"
-        android:layout_margin="20dp"/>
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:hint="아이디"
+        />
+    <EditText
+        android:id="@+id/login_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:hint="비밀번호"
+        />
+
     <Button
-        android:id="@+id/ment_nextbtn"
+        android:id="@+id/login_loginbtn"
         android:layout_width="340dp"
         android:layout_height="50dp"
-        android:text="가입하기"
+        android:text="로그인"
         android:textColor="@color/opposite"
         android:background="@drawable/register_button"
-        android:layout_gravity="center|bottom"
-        android:layout_marginTop="412dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="410dp"
         android:textSize="16dp"
         android:textStyle="bold"
         android:elevation="10dp"/>
+
 </LinearLayout>

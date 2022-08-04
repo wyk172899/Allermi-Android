@@ -10,16 +10,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Alermi">
         <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterPasswordActivity"
+            android:exported="false" />
+        <activity
             android:name=".RegisterMentActivity"
             android:exported="false" />
         <activity
-            android:name=".SearchActivity"
+            android:name=".NavigationActivity"
             android:exported="false" />
         <activity
             android:name=".RegisterIdActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".MainActivity"
+            android:name=".StartActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
