@@ -30,16 +30,21 @@
         android:textSize="20dp"
         android:textColor="#808080"
         android:layout_margin="20dp"/>
-    <Button
-        android:id="@+id/ment_nextbtn"
-        android:layout_width="340dp"
-        android:layout_height="50dp"
-        android:text="가입하기"
-        android:textColor="@color/opposite"
-        android:background="@drawable/register_button"
-        android:layout_gravity="center|bottom"
-        android:layout_marginTop="412dp"
-        android:textSize="16dp"
-        android:textStyle="bold"
-        android:elevation="10dp"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/ment_nextbtn"
+            android:layout_width="340dp"
+            android:layout_height="50dp"
+            android:text="가입하기"
+            android:textColor="@color/opposite"
+            android:background="@drawable/register_button"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="20dp"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:elevation="10dp"/>
+    </FrameLayout>
+
 </LinearLayout>

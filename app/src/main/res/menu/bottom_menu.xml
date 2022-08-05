@@ -6,7 +6,7 @@
         android:icon="@drawable/home"
         android:title="홈"
         android:enabled="true"
-        app:showAsAction="always"/>
+        app:showAsAction="always" />
     <item
         android:id="@+id/bottom_community"
         android:icon="@drawable/community"
@@ -18,7 +18,7 @@
         android:enabled="true"
         app:showAsAction="always"
         android:title=" "
-        android:icon="@drawable/search"
+
         
         />
     <item
